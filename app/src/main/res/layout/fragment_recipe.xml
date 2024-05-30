@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="334dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="45dp"
+        android:onClick="selectImg"
+        android:src="@drawable/select_img"
+        app:layout_constraintBottom_toTopOf="@+id/foodNameText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/image_description" />
+
+    <EditText
+        android:id="@+id/foodNameText"
+        android:layout_width="309dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:hint="Enter the food name"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/recipeText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/recipeText"
+        android:layout_width="307dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="39dp"
+        android:ems="10"
+        android:hint="Enter the meal ingredients"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodNameText" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="98dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="118dp"
+        android:onClick="save"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipeText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
