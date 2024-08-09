@@ -1,5 +1,4 @@
-# RecipeBook
-is an Android application written in Kotlin.
+# RecipeBook is an Android application written in Kotlin.
 
 ## ScreenShoots
 
