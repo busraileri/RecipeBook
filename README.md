@@ -1,4 +1,4 @@
-<img src="images/firstPage.JPG" width="300" height="200" alt="FirstPage">
+<img src="images/firstPage.JPG" width="400" height="670" alt="FirstPage">
 <img src="images/second.JPG" width="400" height="670" alt="SecondPage">
 <img src="images/gallery.JPG" width="400" height="670" alt="ThirdPage">
 <img src="images/thirdPage.JPG" width="400" height="670" alt="FourPage">
