@@ -1,4 +1,7 @@
-#RecipeBook# is an Android application written in Kotlin.
+# RecipeBook
+is an Android application written in Kotlin.
+
+## ScreenShoots
 
 <img src="images/firstPage.JPG" width="400" height="670" alt="FirstPage">
 <img src="images/second.JPG" width="400" height="670" alt="SecondPage">
