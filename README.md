@@ -1,1 +1,7 @@
 ![FirstPage](images/firstPage.JPG)
+![SecondPage](images/second.JPG)
+![ThirdPage](images/gallery.JPG)
+![Page](images/thirdPage.JPG)
+![Page](images/avocado.JPG)
+![Page](images/penne.JPG)
+![Page](images/add.JPG)
